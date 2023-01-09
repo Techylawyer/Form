@@ -78,7 +78,7 @@ span {
 
 @media screen and (max-width:800px) and (min-width:280px) {
     div.form {
-        width: 90vw;
+        width: 80vw;
         margin: auto;
     }
     
