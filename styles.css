@@ -4,7 +4,7 @@
 body {
     background-color: rgb(72, 61, 139);
     color: white;
-    font-family: Poppins, Geneva, Verdana, sans-serif
+    font-family: Poppins, Geneva, Verdana, sans-serif;
 }
 
 div.header {
@@ -74,4 +74,15 @@ option {
 
 span {
     font-size: 0.8em;;
+}
+
+@media screen and (max-width:800px) and (min-width:280px) {
+    div.form {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    body {
+        padding: 5vw 1vw;
+    }
 }
